@@ -2,10 +2,12 @@
 #include <math.h>
 
 int main() {
-	int x;
-	printf("WHAT THE FUCK DO U WANT TO BE X : ");
-	scanf("&d",&x);
-	int power = x^3, &x;
-	printf("&d", power);
+	int x,y;
+	printf("Enter X : ");
+	scanf("%d",&x);
+	printf("Enter Y : ");
+	scanf("%d",&y);
+	int power = pow(x,y);
+	printf("%d\n", power);
 	return 0;
 }
