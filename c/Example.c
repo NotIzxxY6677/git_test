@@ -2,12 +2,6 @@
 #include <math.h>
 
 int main() {
-	int x,y;
-	printf("Enter X : ");
-	scanf("%d",&x);
-	printf("Enter Y : ");
-	scanf("%d",&y);
-	int power = pow(x,y);
-	printf("%d\n", power);
+	printf("%f\n", 15.0/6.0);
 	return 0;
 }
